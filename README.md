@@ -13,10 +13,16 @@ This repository is designed with a specific focus on compatibility with the mess
 1. Install dependencies
 Ubuntu/WSL
 ```bash
+sudo apt update
+sudo apt upgrade
+```
+```bash
 sudo apt install clang
 sudo apt install build-essential
 sudo apt install libssl-dev
 sudo apt install pkg-config
+```
+```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 Mac
