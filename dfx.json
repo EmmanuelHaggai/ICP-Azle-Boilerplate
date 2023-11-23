@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "ICP-Azle-Boilerplate": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle ICP-Azle-Boilerplate",
+            "root": "src",
+            "ts": "src/index.ts",
+            "wasm": ".azle/ICP-Azle-Boilerplate/ICP-Azle-Boilerplate.wasm"
+        }
+    }
+}
