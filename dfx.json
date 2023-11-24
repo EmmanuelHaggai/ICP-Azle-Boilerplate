@@ -1,6 +1,6 @@
 {
     "canisters": {
-        "ICP-Azle-Boilerplate": 
+        "ICP-Azle-Boilerplate": {
             "main": "src/index.ts",
             "type": "custom",
             "build": "npx azle ICP-Azle-Boilerplate",
