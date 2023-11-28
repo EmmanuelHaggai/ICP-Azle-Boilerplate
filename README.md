@@ -61,8 +61,12 @@ echo 'export PATH="$PATH:$HOME/bin"' >> "$HOME/.bashrc"
 ```bash
 git clone https://github.com/EmmanuelHaggai/ICP-Azle-Boilerplate.git
 ```
-6. Input your custom canister code in src/index.ts
+6. Install the dependencies
+```bash
+cd ICP-Azle-Boilerplate/
 
+npm install
+```
 7. Start your dfx code
 ```bash
 npm install
