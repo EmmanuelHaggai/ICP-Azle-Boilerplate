@@ -64,13 +64,10 @@ git clone https://github.com/EmmanuelHaggai/ICP-Azle-Boilerplate.git
 6. Install the dependencies
 ```bash
 cd ICP-Azle-Boilerplate/
-
 npm install
 ```
 7. Start your dfx code
 ```bash
-npm install
-
 dfx start --clean --background
 ```
 8. Deploying your local canister
