@@ -4,26 +4,21 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dfx_install": "DFX_VERSION=0.15.1 sh -ci \"$(curl -fsSL https://sdk.dfinity.org/install.sh)\"",
-        "replica_start": "dfx start --background",
-        "replica_stop": "dfx stop",
-        "canister_deploy_local": "dfx deploy ICP-Azle-Boilerplate",
-        "canister_deploy_mainnet": "dfx deploy --network ic ICP-Azle-Boilerplate",
-        "canister_uninstall": "dfx canister uninstall-code ICP-Azle-Boilerplate"
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "@dfinity/agent": "^0.15.6",
-        "@dfinity/candid": "^0.15.6",
-        "azle": "0.16.2",
-        "uuid": "^9.0.0"
+      "@dfinity/agent": "^0.15.6",
+      "@dfinity/candid": "^0.15.6",
+      "azle": "0.16.2",
+      "uuid": "^9.0.0"
     },
     "engines": {
-        "node": "^12 || ^14 || ^16 || ^18"
+      "node": "^12 || ^14 || ^16 || ^18"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@types/uuid": "^9.0.1"
+      "@types/uuid": "^9.0.1"
     }
-}
+  }

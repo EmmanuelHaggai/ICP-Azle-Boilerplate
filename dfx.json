@@ -1,13 +1,13 @@
 {
     "canisters": {
-        "ICP-Azle-Boilerplate": {
-            "main": "src/index.ts",
-            "type": "custom",
-            "build": "npx azle ICP-Azle-Boilerplate",
-            "root": "src",
-            "ts": "src/index.ts",
-            "candid": "src/index.did",
-            "wasm": ".azle/ICP-Azle-Boilerplate/ICP-Azle-Boilerplate.wasm.gz"
-        }
+      "ICP_azle_boilerplate": {
+        "main": "src/index.ts",
+        "type": "custom",
+        "build": "npx azle ICP_azle_boilerplate",
+        "root": "src",
+        "ts": "src/index.ts",
+        "candid": "src/index.did",
+        "wasm": ".azle/ICP_azle_boilerplate/ICP_azle_boilerplate.wasm.gz"
+      }
     }
-}
+  }
