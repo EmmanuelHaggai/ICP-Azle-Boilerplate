@@ -26,7 +26,6 @@ sudo apt install pkg-config
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 Mac
-
 ```bash
 # Install the Xcode Command Line Tools
 xcode-select --install
