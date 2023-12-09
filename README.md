@@ -22,6 +22,8 @@ sudo apt install build-essential
 sudo apt install libssl-dev
 sudo apt install pkg-config
 ```
+
+Install Rust
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
