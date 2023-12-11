@@ -1,5 +1,5 @@
 # ICP Azle Boilerplate
- This is a boilerplate repository to streamline development with the ICP Azle framework. This repository is tailored specifically for seamless integration with the message board canister on the Dacade website.
+ This is a boilerplate repository to streamline development with the ICP Azle framework. This repository is tailored specifically for seamless integration with the message board canister on the Dacade website. For a comprehensive tutorial and demonstration, check out this video guide on YouTube: [https://www.youtube.com/watch?v=2VR3sY2KuCQ].
 
 ## Key Features:
 
