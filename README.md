@@ -16,6 +16,7 @@ Ubuntu/WSL
 sudo apt update
 sudo apt upgrade
 ```
+
 ```bash
 sudo apt install clang
 sudo apt install build-essential
@@ -23,7 +24,7 @@ sudo apt install libssl-dev
 sudo apt install pkg-config
 ```
 
-Install Rust
+2. Install Rust
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
@@ -32,7 +33,8 @@ Mac
 # Install the Xcode Command Line Tools
 xcode-select --install
 ```
-2. Install Node.js
+
+3. Install Node.js
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
@@ -45,7 +47,7 @@ Check that the installation went smoothly by looking for clean output from the f
 node --version
 ```
 
-3. Install dfx
+4. Install dfx
 Run the following command to install dfx 0.15.1:
 ```bash
 DFX_VERSION=0.15.1 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
@@ -58,6 +60,7 @@ If after trying to run dfx --version you encounter an error such as dfx: command
 ```bash
 echo 'export PATH="$PATH:$HOME/bin"' >> "$HOME/.bashrc"
 ```
+
 5. clone this repo
 ```bash
 git clone https://github.com/EmmanuelHaggai/ICP-Azle-Boilerplate.git
